@@ -1,0 +1,112 @@
+/**********************************************************************************
+    Get-Currency-Rate Version 1.0. Web client for displaying data on 
+    the web interface and communicating with the server       
+    
+    Copyright (C) 2023  Maxim Shershavikov
+    This file is part of Get-Currency-Rate.
+    
+    Get-Currency-Rate is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    
+    Get-Currency-Rate is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    Email m.shershavikov@yandex.ru
+**********************************************************************************/
+
+.block_1 {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: system-ui;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0)
+}
+
+.block_2 {
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font: 20px/24px sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+.table_head {
+    padding: 10px;
+    background-color: #E0E2E4;
+    border-bottom: 1px solid #E0E2E4;
+    border-radius: 8px 8px 0 0;
+}
+
+.table_row {
+    border-bottom: 1px solid #E0E2E4;
+}
+
+.currency {
+    width: 53%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.price {
+    width: 24%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.change_pr_head {
+    width: 23%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.curr {
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #E0E2E4;
+    text-align: left;
+}
+
+.pr {
+    width: 21%;
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #E0E2E4;
+    text-align: right;
+}
+
+.change_pr {
+    width: 21%;
+    padding: 10px;
+    display: inline-block;
+    text-align: right;
+    color: red;
+}
+
+@keyframes blink_red {
+    0% {
+      background: rgb(253, 120, 120);
+    }
+}
+
+@keyframes blink_green {
+    0% {
+      background: rgb(103, 201, 117);
+    }
+}
