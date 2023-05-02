@@ -8,5 +8,5 @@ For the server to work, you need to install **"nodejs"**.
 - open the web page **"client_currency_rate.html"** from the folder **"Client-Currency-Rate"** wait a few seconds for the data to update
 #### For Linux:
 - install some modules, in the terminal, go to the **"Server-Currency-Rate"** folder and enter the following command: **"npm install ws jsdom puppeteer"**
-- start the server, in the terminal, go to the **"Client-Currency-Rate"** folder and enter the following command: **"node server_currency_rate"**
+- start the server, in the terminal, go to the **"Server-Currency-Rate"** folder and enter the following command: **"node server_currency_rate"**
 - open the web page **"client_currency_rate.html"** from the folder **"Client-Currency-Rate"** wait a few seconds for the data to update
