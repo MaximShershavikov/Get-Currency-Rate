@@ -1,0 +1,1 @@
+npm install ws && npm install puppeteer && npm install jsdom
