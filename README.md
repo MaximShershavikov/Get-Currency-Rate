@@ -4,7 +4,7 @@
 For the server to work, you need to install **"nodejs"**.
 #### For Windows:
 - install some modules, to do this, run **"install_server.bat"** from the folder **"Server-Currency-Rate"**
-- run the server **"start_server.bat"** from the folder **"Server-Currency-Rate"**
+- run the server, to do this, start **"start_server.bat"** from the folder **"Server-Currency-Rate"**
 - open the web page **"client_currency_rate.html"** from the folder **"Client-Currency-Rate"** wait a few seconds for the data to update
 #### For Linux:
 - install some modules, to do this, in the terminal, go to the **"Server-Currency-Rate"** folder and enter the following command: **"npm install ws jsdom puppeteer"**
